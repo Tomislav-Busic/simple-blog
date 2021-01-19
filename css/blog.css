@@ -1,0 +1,51 @@
+form#editor{
+    width: 650px;
+    margin: 0px;
+    padding: 0px;
+}
+
+form#editor label,
+form#editor input[type='text']{
+    display: block;
+}
+
+form#editor #editor-buttons{
+    border: none;
+    text-align: right;
+}
+
+form#editor textarea,
+form#editor input[type='text']{
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+form#editor textarea{
+    height: 10em;
+}
+
+form#comment-form{
+    margin-top: 2em;
+    padding-top: 0.7em;
+    border-top: solid gray;
+}
+
+form#comment-form label,
+form#comment-form input[type='submit']{
+    padding: 0.7em;
+    display: block;
+}
+
+nav {
+    background-color: #CCCCDE;
+    padding-top: 10px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
